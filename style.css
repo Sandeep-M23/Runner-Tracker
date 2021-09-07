@@ -1,0 +1,119 @@
+html{
+	font-family: 'Sansita Swashed', cursive;
+	background-color: #2d3740;
+}
+body{
+	padding: 1rem;
+	background-color: #1c262f;
+	color: white;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#container_heading{
+  color: white;
+  margin: 5px;
+  margin-bottom: 25px;
+  padding: 15px;
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  position: relative;
+  left: 3%;
+}
+
+
+.logo{
+	text-align: center;
+}
+#form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+ #form >label {
+	font-size: 2em;
+	margin-top: 5px;
+}
+input[type="number"]{
+font-family: inherit;
+width: 80%;
+margin: 1rem 0;
+padding: 0.8rem 0;
+border: none;
+font-size: 1.2rem;
+text-align: center;
+}
+ button {
+ 	font-size: 1.4rem;
+ 	font-weight: bolder;
+ 	width: 80px;
+ 	height: 80px;
+ 	border-radius: 50%;
+ 	border:none;
+ 	background-color: #009aff;
+ 	outline: none;
+ 	margin:0.5rem 0 1rem 0;
+ 	cursor: pointer;
+ }
+ ul{
+ 	padding: 0;
+ 	list-style-type: none;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ li{
+ 	border:1px solid ;
+ 	padding: 1rem 1.5rem;
+ }
+ .entry-wrapper{
+ 	padding: 1rem 0;
+ 	font-size: 1.6rem;
+ }
+ .entry-wrapper > h3 {
+ 	margin: 0;
+ 	text-align: center;
+ 	font-weight: lighter;
+ }
+ .data{
+ 	font-size: 1.4rem;
+ }
+ .data > div{
+ 	background-color: #141c22;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	margin :0.5rem 0;
+ 	padding: 0 1rem;
+ }
+ #progress{
+ 	text-align: center;
+ 	padding-bottom: 1rem;
+ }
+ #progress h3 {
+ 	font-size: 1.6rem;
+ 	font-weight: lighter;
+ }
+ .progressCircleWrapper{
+ 	display: flex;
+ 	justify-content: center;
+ }
+ #progressCircle{
+ 	width: 250px;
+ 	height: 250px;
+ 	border-radius: 50%;
+ 	text-align: center;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background: conic-gradient(	#ffffff 0%, #2d3740 0%);
+ }
+
+#progressCenter {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #1c262f;
+}
